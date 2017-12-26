@@ -17,7 +17,7 @@ class IndexController extends Controller {
         $echostr = $_GET['echostr'];
         $tmp = array($token,$timestamp,$nonce);
         sort($tmp,SORT_STRING);
-        $tmp = implode($tmp);
+        $tmp = implode('',$tmp);
         $tmp = sha1($tmp);
         if($tmp == $signature){
             return true;
