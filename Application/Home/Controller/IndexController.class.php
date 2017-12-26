@@ -19,7 +19,7 @@ class IndexController extends Controller {
         sort($tmp,SORT_STRING);
         $tmp = implode($tmp);
         $tmp = sha1($tmp);
-        if($tmp == $echostr){
+        if($tmp == $signature){
             return true;
         }else{
             return false;
