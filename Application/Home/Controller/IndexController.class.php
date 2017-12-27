@@ -2,7 +2,7 @@
 namespace Home\Controller;
 use Think\Controller;
 class IndexController extends Controller {
-
+    static private $access_token;
     public function index(){
         $this->__checkSignature();
     }
@@ -28,8 +28,8 @@ class IndexController extends Controller {
     }
 
     public function getAccessToken(){
-        if(isset($_COOKIE['ACCESS_TOKEN'])){
-            return $_COOKIE['ACCESS_TOKEN'];
+        if(self::$access_token != ''){
+            return self::$access_token;
         }else{
             return $this->requestToken();
         }
@@ -40,8 +40,8 @@ class IndexController extends Controller {
         $url = "https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid={$APPID}&secret={$APPSECRET}";
         $res = $this->curlRequest($url);
         if(!isset($res['errcode'])){
-            setcookie('ACCESS_TOKEN',$res['access_token'],$res['expires_in']);
-            return $_COOKIE['ACCESS_TOKEN'];
+            self::$access_token = $res['access_token'];
+            return self::$access_token ;
         }else{
             print_r($res['errmsg']);
         }
@@ -108,7 +108,14 @@ class IndexController extends Controller {
         $CreateTime = time();
         $MsgType = 'text';
         $Content= trim($postObj->Content);
-        $msgTpl = '<xml> <ToUserName>< ![CDATA[%s] ]></ToUserName> <FromUserName>< ![CDATA[%s] ]></FromUserName> <CreateTime>%s</CreateTime> <MsgType>< ![CDATA[%s] ]></MsgType> <Content>< ![CDATA[%s] ]></Content> </xml>';
+        $msgTpl = "<xml> 
+            <ToUserName>< ![CDATA[%s] ]></ToUserName> 
+            <FromUserName>< ![CDATA[%s] ]></FromUserName> 
+            <CreateTime>%s</CreateTime> 
+            <MsgType>< ![CDATA[%s] ]></MsgType> 
+            <Content>< ![CDATA[%s] ]></Content>
+            <FuncFlag>0</FuncFlag> 
+            </xml>";
 
         if(!empty($Content)){
             $contentStr = $this->keyrep($Content);
