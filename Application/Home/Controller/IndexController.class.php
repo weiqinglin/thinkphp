@@ -6,7 +6,9 @@ class IndexController extends Controller {
     public function index(){
         $this->__checkSignature();
     }
-
+    public function init(){
+        echo 111;
+    }
     /**
      * 检查signature
      */
@@ -60,5 +62,44 @@ class IndexController extends Controller {
         $res = curl_exec($ch);
         $res = json_decode($res,true);
         return $res;
+    }
+
+    public function setMenu(){
+        $jsonMenu = '{
+             "button":[
+             {    
+                  "type":"click",
+                  "name":"今日歌曲",
+                  "key":"V1001_TODAY_MUSIC"
+              },
+              {
+                   "name":"菜单",
+                   "sub_button":[
+                   {    
+                       "type":"view",
+                       "name":"搜索",
+                       "url":"http://www.soso.com/"
+                    },
+                    {
+                         "type":"miniprogram",
+                         "name":"wxa",
+                         "url":"http://mp.weixin.qq.com",
+                         "appid":"wx286b93c14bbf93aa",
+                         "pagepath":"pages/lunar/index"
+                     },
+                    {
+                       "type":"click",
+                       "name":"赞一下我们",
+                       "key":"V1001_GOOD"
+                    }]
+               }]
+         }';
+        $url = 'https://api.weixin.qq.com/cgi-bin/menu/create?access_token='.$this->getAccessToken();
+        $res = $this->curlRequest($url,'post',$jsonMenu);
+        if($res['errcode'] === 0){
+            echo "设置成功";
+        }else{
+            print_r($res['errmsg']);
+        }
     }
 }
