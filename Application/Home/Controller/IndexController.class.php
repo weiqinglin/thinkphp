@@ -23,7 +23,7 @@ class IndexController extends Controller {
         if($tmp == $signature && isset($echostr)){
             echo $echostr;exit;
         }else{
-	    $this->receiveMsg();
+	        $this->receiveMsg();
         }
     }
 
@@ -101,8 +101,8 @@ class IndexController extends Controller {
         }
     }
     public function receiveMsg(){
-        $postStr  = $GLOBALS["HTTP_RAW_POST_DATA"];
-        $postObj = simplexml_load_string($postStr,'SimpleXMLElement','LIBXML_NOCDATA');
+        $postStr  = $GLOBALS["HTTP_RAW_POST_DATA"] == '' ? file_get_contents('php://input') : $GLOBALS["HTTP_RAW_POST_DATA"] ;
+        $postObj = simplexml_load_string($postStr,'SimpleXMLElement', LIBXML_NOCDATA);
         $FromUserName = $postObj->FromUserName;
         $ToUserName = $postObj->ToUserName;
         $CreateTime = time();
