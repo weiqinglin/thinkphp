@@ -114,10 +114,14 @@ class IndexController extends Controller {
             $contentStr = $this->keyrep($Content);
             if($contentStr ==''){
                 $contentStr ="你是故意的吧，没文化真可怕";
+            }else{
+                $contentStr ="你是故意的吧，没文化真可怕!!";
             }
-            $resultStr = sprintf($msgTpl, $FromUserName, $ToUserName, $CreateTime, $MsgType, $contentStr);
-            echo $resultStr;
+        }else{
+            $contentStr ="你是故意的吧，没文化真可怕!!!";
         }
+        $resultStr = sprintf($msgTpl, $FromUserName, $ToUserName, $CreateTime, $MsgType, $contentStr);
+        echo $resultStr;
     }
     public function keyrep($key){
         //return $key;
