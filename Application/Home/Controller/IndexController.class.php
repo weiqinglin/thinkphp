@@ -20,10 +20,10 @@ class IndexController extends Controller {
         sort($tmp,SORT_STRING);
         $tmp = implode('',$tmp);
         $tmp = sha1($tmp);
-        if($tmp == $signature){
-            echo $echostr;
+        if($tmp == $signature && isset($echostr)){
+            echo $echostr;exit;
         }else{
-            $this->receiveMsg();
+	    $this->receiveMsg();
         }
     }
 
@@ -114,7 +114,6 @@ class IndexController extends Controller {
             <CreateTime>%s</CreateTime> 
             <MsgType>< ![CDATA[%s] ]></MsgType> 
             <Content>< ![CDATA[%s] ]></Content>
-            <FuncFlag>0</FuncFlag> 
             </xml>";
 
         if(!empty($Content)){
