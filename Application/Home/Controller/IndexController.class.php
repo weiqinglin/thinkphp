@@ -20,7 +20,7 @@ class IndexController extends Controller {
         sort($tmp,SORT_STRING);
         $tmp = implode('',$tmp);
         $tmp = sha1($tmp);
-        if($tmp == $signature && isset($echostr)){
+        if($tmp == $signature && $echostr){
             echo $echostr;exit;
         }else{
 	        $this->receiveMsg();
@@ -106,7 +106,7 @@ class IndexController extends Controller {
         $FromUserName = $postObj->FromUserName;
         $ToUserName = $postObj->ToUserName;
         $CreateTime = time();
-        $MsgType = 'text';
+        $MsgType = $postObj->MsgType;
         $Content= trim($postObj->Content);
         $msgTpl = "<xml> 
             <ToUserName>< ![CDATA[%s] ]></ToUserName> 
