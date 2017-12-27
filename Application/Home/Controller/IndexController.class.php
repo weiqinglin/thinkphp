@@ -95,6 +95,7 @@ class IndexController extends Controller {
                }]
          }';
         $url = 'https://api.weixin.qq.com/cgi-bin/menu/create?access_token='.$this->getAccessToken();
+
         $res = $this->curlRequest($url,'post',$jsonMenu);
         if($res['errcode'] === 0){
             echo "设置成功";
