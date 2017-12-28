@@ -74,7 +74,8 @@ class WeixinController extends Controller{
             $content = '小主很懒什么都不想说';
         }
         $msg = sprintf($this->_msgTpl['text'],$postObj->FromUserName,$postObj->ToUserName,time(),$content);
-        echo $msg;exit;
+error_log($msg,3,'/tmp/ds.log');
+        echo $msg;
     }
     function msgImage(){
 
