@@ -10,6 +10,13 @@ namespace Home\Controller;
 use \Think\Controller;
 
 class WeixinController extends Controller{
+    private $_msgTpl = array(
+        'text'=>'<xml> <ToUserName>< ![CDATA[%s] ]></ToUserName> <FromUserName>< ![CDATA[%s] ]></FromUserName> <CreateTime>%s</CreateTime> <MsgType>< ![CDATA[text] ]></MsgType> <Content>< ![CDATA[%s] ]></Content> </xml>',
+        'image'=>'<xml><ToUserName>< ![CDATA[%s] ]></ToUserName><FromUserName>< ![CDATA[%s] ]></FromUserName><CreateTime>%s</CreateTime><MsgType>< ![CDATA[image] ]></MsgType><Image><MediaId>< ![CDATA[%s] ]></MediaId></Image></xml>',
+        'voice'=>'<xml><ToUserName>< ![CDATA[%s] ]></ToUserName><FromUserName>< ![CDATA[%s] ]></FromUserName><CreateTime>%s</CreateTime><MsgType>< ![CDATA[voice] ]></MsgType><Voice><MediaId>< ![CDATA[%s] ]></MediaId></Voice></xml>',
+        'video'=>'<xml><ToUserName>< ![CDATA[%s] ]></ToUserName><FromUserName>< ![CDATA[%s] ]></FromUserName><CreateTime>%s</CreateTime><MsgType>< ![CDATA[video] ]></MsgType><Video><MediaId>< ![CDATA[%s] ]></MediaId><Title>< ![CDATA[%s] ]></Title><Description>< ![CDATA[%s] ]></Description></Video> </xml>',
+        'music'=>'<xml><ToUserName>< ![CDATA[%s] ]></ToUserName><FromUserName>< ![CDATA[%s] ]></FromUserName><CreateTime>%s</CreateTime><MsgType>< ![CDATA[music] ]></MsgType><Music><Title>< ![CDATA[%s] ]></Title><Description>< ![CDATA[%s] ]></Description><MusicUrl>< ![CDATA[%s] ]></MusicUrl><HQMusicUrl>< ![CDATA[%s] ]></HQMusicUrl><ThumbMediaId>< ![CDATA[%s] ]></ThumbMediaId></Music></xml>',
+    );
     public function getWeixinIp(){
 
     }
@@ -54,6 +61,8 @@ class WeixinController extends Controller{
             case 'link':
                 $this->msgLink($postObj);
                 break;
+            case 'event':
+                $this->eventMsg($postObj);
         }
     }
     function msgText($postObj){
@@ -63,14 +72,7 @@ class WeixinController extends Controller{
         }else{
             $content = '小主很懒什么都不想说';
         }
-        $msgTpl = "<xml> 
-            <ToUserName>< ![CDATA[%s] ]></ToUserName> 
-            <FromUserName>< ![CDATA[%s] ]></FromUserName>
-             <CreateTime>%s</CreateTime>
-            <MsgType>< ![CDATA[%s] ]></MsgType>
-            <Content>< ![CDATA[%s] ]></Content>
-            </xml>";
-        $msg = sprintf($msgTpl,$postObj->FromUserName,$postObj->ToUserName,time(),$postObj->MsgType,$content);
+        $msg = sprintf($this->_msgTpl['text'],$postObj->FromUserName,$postObj->ToUserName,time(),$content);
         echo $msg;exit;
     }
     function msgImage(){
@@ -87,5 +89,15 @@ class WeixinController extends Controller{
     }
     function msgLink(){
 
+    }
+    function eventMsg($postObj){
+        if(strtolower($postObj->Event) == 'subscribe'){
+            $msg = sprintf($this->_msgTpl['text'],$postObj->FromUserName,$postObj->ToUserName,time(),'感谢关注，我很少说话哦');
+            echo $msg;exit;
+        }elseif(strtolower($postObj->Event) == 'click'){
+            echo '';exit;
+        }elseif(strtolower($postObj->VIEW) == 'view'){
+            echo '';exit;
+        }
     }
 }
