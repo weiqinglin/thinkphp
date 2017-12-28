@@ -42,7 +42,7 @@ class WeixinController extends Controller{
     function responseMsg(){
         $postStr  = $GLOBALS["HTTP_RAW_POST_DATA"] == '' ? file_get_contents('php://input') : $GLOBALS["HTTP_RAW_POST_DATA"] ;
         $postObj = simplexml_load_string($postStr,'SimpleXMLElement', LIBXML_NOCDATA);
-        error_log(print_r(print_r($postObj,1),3,'/tmp/ds.log'));
+        error_log(print_r($postObj,1),3,'/tmp/ds.log');
         switch (strtolower($postObj->MsgType)){
             case 'text':
                 $this->msgText($postObj);
