@@ -9,7 +9,7 @@ namespace Home\Controller;
 
 use \Think\Controller;
 
-class weixinController extends Controller{
+class WeixinController extends Controller{
     public function getWeixinIp(){
 
     }
