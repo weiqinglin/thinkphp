@@ -64,15 +64,16 @@ class WeixinController extends Controller{
                 break;
             case 'event':
                 $this->eventMsg($postObj);
+                break;
         }
     }
     function msgText($postObj){
-        $content = keyrep(trim($postObj->Content));
+        $content = $this->keyrep(trim($postObj->Content));
         if($content == ''){
             $content = '小主很懒什么都不想说';
         }
         $msg = sprintf($this->_msgTpl['text'],$postObj->FromUserName,$postObj->ToUserName,time(),$content);
-error_log($msg,3,'/tmp/ds.log');
+error_log(print_r($msg),3,'/tmp/ds.log');
         echo $msg;
     }
     function keyrep($key)
@@ -121,7 +122,7 @@ error_log($msg,3,'/tmp/ds.log');
     }
     function eventMsg($postObj){
         if(strtolower($postObj->Event) == 'subscribe'){
-            $msg = sprintf($this->_msgTpl['text'],$postObj->FromUserName,$postObj->ToUserName,time(),'感谢关注，我很少说话哦');
+            $msg = sprintf($this->_msgTpl['text'],$postObj->FromUserName,$postObj->ToUserName,time(),'感谢关注，这里是151空间');
             echo $msg;exit;
         }elseif(strtolower($postObj->Event) == 'click'){
             echo '';exit;
