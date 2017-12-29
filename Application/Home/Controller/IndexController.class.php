@@ -144,4 +144,10 @@ class IndexController extends Controller {
         }
         return "";
     }
+    public function check(){
+
+        $test = new \Think\Kvstore('default');
+        print_r($test->store('cal','cals1111',3200));
+        print_r($test->fetch('cal'));
+    }
 }
