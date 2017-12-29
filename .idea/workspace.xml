@@ -38,8 +38,8 @@
       <file leaf-file-name="WeixinController.class.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Application/Home/Controller/WeixinController.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1566">
-              <caret line="13" column="199" lean-forward="false" selection-start-line="13" selection-start-column="199" selection-end-line="13" selection-end-column="199" />
+            <state relative-caret-position="277">
+              <caret line="79" column="22" lean-forward="true" selection-start-line="79" selection-start-column="22" selection-end-line="79" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -260,12 +260,12 @@
       <workItem from="1514267834359" duration="5290000" />
       <workItem from="1514353168526" duration="12416000" />
       <workItem from="1514429580225" duration="30582000" />
-      <workItem from="1514557126709" duration="1093000" />
+      <workItem from="1514557126709" duration="1287000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49381000" />
+    <option name="totallyTimeSpent" value="49575000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -675,8 +675,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Application/Home/Controller/WeixinController.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1566">
-          <caret line="13" column="199" lean-forward="false" selection-start-line="13" selection-start-column="199" selection-end-line="13" selection-end-column="199" />
+        <state relative-caret-position="277">
+          <caret line="79" column="22" lean-forward="true" selection-start-line="79" selection-start-column="22" selection-end-line="79" selection-end-column="22" />
           <folding />
         </state>
       </provider>
