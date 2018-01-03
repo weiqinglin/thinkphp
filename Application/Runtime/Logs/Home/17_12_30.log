@@ -1,0 +1,17 @@
+[ 2017-12-30T00:49:18+08:00 ] 119.147.207.144 /my/thinkphp/index.php/Home/weixin/checkSignature?signature%3Dea4b46ff670323dcb9573ebc53c5b3ce4e0821ef%26timestamp%3D1514558657%26nonce%3D1594041106%26openid%3DofeBBwCThO9VZBF8QWuBd1-m0jCk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000931s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000303s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000343s ]
+NOTIC: [8] Undefined index: signature /data/httpd/my/thinkphp/Application/Home/Controller/WeixinController.class.php 第 27 行.
+NOTIC: [8] Undefined index: nonce /data/httpd/my/thinkphp/Application/Home/Controller/WeixinController.class.php 第 28 行.
+NOTIC: [8] Undefined index: timestamp /data/httpd/my/thinkphp/Application/Home/Controller/WeixinController.class.php 第 30 行.
+NOTIC: [8] Undefined index: echostr /data/httpd/my/thinkphp/Application/Home/Controller/WeixinController.class.php 第 31 行.
+NOTIC: [8] Undefined index: HTTP_RAW_POST_DATA /data/httpd/my/thinkphp/Application/Home/Controller/WeixinController.class.php 第 43 行.
+NOTIC: [8] Trying to get property of non-object /data/httpd/my/thinkphp/Application/Home/Controller/WeixinController.class.php 第 46 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000438s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000478s ]
+

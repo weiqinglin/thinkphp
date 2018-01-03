@@ -1,0 +1,746 @@
+[ 2017-12-27T13:35:16+08:00 ] 122.192.12.80 /my/thinkphp/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000339s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000316s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000354s ]
+NOTIC: [8] Undefined index: signature /data/httpd/my/thinkphp/Application/Home/Controller/IndexController.class.php 第 14 行.
+NOTIC: [8] Undefined index: nonce /data/httpd/my/thinkphp/Application/Home/Controller/IndexController.class.php 第 15 行.
+NOTIC: [8] Undefined index: timestamp /data/httpd/my/thinkphp/Application/Home/Controller/IndexController.class.php 第 17 行.
+NOTIC: [8] Undefined index: echostr /data/httpd/my/thinkphp/Application/Home/Controller/IndexController.class.php 第 18 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000293s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000327s ]
+
+[ 2017-12-27T14:21:55+08:00 ] 122.192.12.80 /my/thinkphp/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000074s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000660s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000691s ]
+NOTIC: [8] Undefined index: signature /data/httpd/my/thinkphp/Application/Home/Controller/IndexController.class.php 第 14 行.
+NOTIC: [8] Undefined index: nonce /data/httpd/my/thinkphp/Application/Home/Controller/IndexController.class.php 第 15 行.
+NOTIC: [8] Undefined index: timestamp /data/httpd/my/thinkphp/Application/Home/Controller/IndexController.class.php 第 17 行.
+NOTIC: [8] Undefined index: echostr /data/httpd/my/thinkphp/Application/Home/Controller/IndexController.class.php 第 18 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000691s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000735s ]
+
+[ 2017-12-27T14:43:58+08:00 ] 122.192.12.80 /my/thinkphp/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000109s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000294s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000332s ]
+NOTIC: [8] Undefined index: signature /data/httpd/my/thinkphp/Application/Home/Controller/IndexController.class.php 第 14 行.
+NOTIC: [8] Undefined index: nonce /data/httpd/my/thinkphp/Application/Home/Controller/IndexController.class.php 第 15 行.
+NOTIC: [8] Undefined index: timestamp /data/httpd/my/thinkphp/Application/Home/Controller/IndexController.class.php 第 17 行.
+NOTIC: [8] Undefined index: echostr /data/httpd/my/thinkphp/Application/Home/Controller/IndexController.class.php 第 18 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000260s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000289s ]
+
+[ 2017-12-27T14:44:05+08:00 ] 122.192.12.80 /my/thinkphp/index.php/Home/Index/init
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000071s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000061s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000091s ]
+ERR: 非法操作:init
+
+[ 2017-12-27T16:31:42+08:00 ] 122.192.12.80 /my/thinkphp/index.php/Home/Index/init
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000323s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000328s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000374s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000318s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000372s ]
+
+[ 2017-12-27T16:31:55+08:00 ] 122.192.12.80 /my/thinkphp/index.php/Home/Index/setMenu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000069s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000079s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000116s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000126s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000201s ]
+
+[ 2017-12-27T16:33:03+08:00 ] 122.192.12.80 /my/thinkphp/index.php/Home/Index/setMenu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000070s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000057s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000091s ]
+
+[ 2017-12-27T16:33:59+08:00 ] 122.192.12.80 /my/thinkphp/index.php/Home/Index/setMenu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000070s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000058s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000089s ]
+
+[ 2017-12-27T16:36:31+08:00 ] 122.192.12.80 /my/thinkphp/index.php/Home/Index/setMenu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000175s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000071s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000103s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000137s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000200s ]
+
+[ 2017-12-27T16:36:59+08:00 ] 122.192.12.80 /my/thinkphp/index.php/Home/Index/setMenu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000136s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000071s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000102s ]
+
+[ 2017-12-27T16:37:31+08:00 ] 122.192.12.80 /my/thinkphp/index.php/Home/Index/setMenu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000130s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000062s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000090s ]
+
+[ 2017-12-27T16:38:38+08:00 ] 122.192.12.80 /my/thinkphp/index.php/Home/Index/setMenu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000122s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000061s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000089s ]
+
+[ 2017-12-27T16:42:28+08:00 ] 122.192.12.80 /my/thinkphp/index.php/Home/Index/setMenu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000161s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000077s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000111s ]
+
+[ 2017-12-27T16:45:41+08:00 ] 122.192.12.80 /my/thinkphp/index.php/Home/Index/setMenu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000125s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000074s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000108s ]
+
+[ 2017-12-27T16:50:37+08:00 ] 122.192.12.80 /my/thinkphp/index.php/Home/Index/setMenu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000124s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000063s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000092s ]
+
+[ 2017-12-27T16:53:08+08:00 ] 122.192.12.80 /my/thinkphp/index.php/Home/Index/setMenu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000132s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000064s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000093s ]
+
+[ 2017-12-27T16:53:26+08:00 ] 122.192.12.80 /my/thinkphp/index.php/Home/Index/setMenu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000123s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000086s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000128s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000134s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000206s ]
+
+[ 2017-12-27T16:53:49+08:00 ] 122.192.12.80 /my/thinkphp/index.php/Home/Index/setMenu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000139s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000065s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000097s ]
+NOTIC: [8] Undefined index: code /data/httpd/my/thinkphp/Application/Home/Controller/IndexController.class.php 第 102 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000133s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000179s ]
+
+[ 2017-12-27T16:53:51+08:00 ] 122.192.12.80 /my/thinkphp/index.php/Home/Index/setMenu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000141s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000061s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000089s ]
+NOTIC: [8] Undefined index: code /data/httpd/my/thinkphp/Application/Home/Controller/IndexController.class.php 第 102 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000164s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000222s ]
+
+[ 2017-12-27T16:54:07+08:00 ] 122.192.12.80 /my/thinkphp/index.php/Home/Index/setMenu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000163s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000089s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000127s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000133s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000192s ]
+
+[ 2017-12-27T20:24:24+08:00 ] 182.254.86.146 /my/thinkphp/?signature=57b7c9507ac7f5fd69ae73784f3e9262f01bb4fb&echostr=5801768213509807359&timestamp=1514377464&nonce=2860128195
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000418s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000321s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000378s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000328s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000381s ]
+
+[ 2017-12-27T20:24:38+08:00 ] 182.254.86.155 /my/thinkphp/?signature=d685508541355731693057bdc29cd45f784f339e&echostr=1086699239346010023&timestamp=1514377478&nonce=3730914956
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000122s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000071s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000100s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000059s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000087s ]
+
+[ 2017-12-27T20:24:44+08:00 ] 182.254.86.145 /my/thinkphp/?signature=00035c12b66971ed902af1b79bdcd849b8f9bf89&echostr=8341293883795691359&timestamp=1514377484&nonce=1929191084
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000139s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000058s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000085s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000059s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000086s ]
+
+[ 2017-12-27T20:24:53+08:00 ] 182.254.86.145 /my/thinkphp/?signature=927b3a4bec88bb13e4b99b8be3d1c700d1801a5f&echostr=14446898739665410941&timestamp=1514377493&nonce=2851735311
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000127s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000059s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000086s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000069s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000097s ]
+
+[ 2017-12-27T20:24:56+08:00 ] 182.254.86.145 /my/thinkphp/?signature=8f30ddb64c568fbb2aba149f0e6fdce30f5b1b78&echostr=15732165218943868831&timestamp=1514377496&nonce=1675427806
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000131s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000058s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000084s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000057s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000084s ]
+
+[ 2017-12-27T20:24:59+08:00 ] 182.254.86.140 /my/thinkphp/?signature=7af69a7fa87ef3de28805e72205833e6f93de51c&echostr=13111558513400459551&timestamp=1514377499&nonce=2737372500
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000118s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000067s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000095s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000057s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000084s ]
+
+[ 2017-12-27T20:25:29+08:00 ] 182.254.86.140 /my/thinkphp/?signature=7d84af0c9bc2a2d244017453d955a3ab56721849&echostr=17302562402279858041&timestamp=1514377529&nonce=518307817
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000146s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000066s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000094s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000068s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000104s ]
+
+[ 2017-12-27T20:25:32+08:00 ] 182.254.86.139 /my/thinkphp/?signature=17ab8bd57d9b7945ae324ed8d4349e6cf66cee2f&echostr=14891809336474973054&timestamp=1514377532&nonce=3667601747
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000139s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000079s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000116s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000059s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000088s ]
+
+[ 2017-12-27T20:25:53+08:00 ] 121.51.32.144 /my/thinkphp/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000181s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000087s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000132s ]
+NOTIC: [8] Undefined index: signature /data/httpd/my/thinkphp/Application/Home/Controller/IndexController.class.php 第 16 行.
+NOTIC: [8] Undefined index: nonce /data/httpd/my/thinkphp/Application/Home/Controller/IndexController.class.php 第 17 行.
+NOTIC: [8] Undefined index: timestamp /data/httpd/my/thinkphp/Application/Home/Controller/IndexController.class.php 第 19 行.
+NOTIC: [8] Undefined index: echostr /data/httpd/my/thinkphp/Application/Home/Controller/IndexController.class.php 第 20 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000081s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000118s ]
+
+[ 2017-12-27T20:44:25+08:00 ] 122.194.3.247 /my/thinkphp/index.php/Home/Index/setMenu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000158s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000065s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000094s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000135s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000200s ]
+
+[ 2017-12-27T21:19:21+08:00 ] 122.194.3.247 /my/thinkphp/index.php/Home/Index/setMenu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000128s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000067s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000095s ]
+NOTIC: [8] Undefined index: ACCESS_TOKEN /data/httpd/my/thinkphp/Application/Home/Controller/IndexController.class.php 第 44 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000135s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000190s ]
+
+[ 2017-12-27T21:30:27+08:00 ] 122.194.3.247 /my/thinkphp/index.php/Home/Index/setMenu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000413s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000078s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000115s ]
+NOTIC: [8] Undefined index: ACCESS_TOKEN /data/httpd/my/thinkphp/Application/Home/Controller/IndexController.class.php 第 45 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000178s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000261s ]
+
+[ 2017-12-27T21:31:02+08:00 ] 122.194.3.247 /my/thinkphp/index.php/Home/Index/setMenu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000127s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000065s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000095s ]
+NOTIC: [8] Undefined index: ACCESS_TOKEN /data/httpd/my/thinkphp/Application/Home/Controller/IndexController.class.php 第 45 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000127s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000191s ]
+
+[ 2017-12-27T21:31:04+08:00 ] 122.194.3.247 /my/thinkphp/index.php/Home/Index/setMenu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000120s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000062s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000090s ]
+NOTIC: [8] Undefined index: ACCESS_TOKEN /data/httpd/my/thinkphp/Application/Home/Controller/IndexController.class.php 第 45 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000158s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000239s ]
+
+[ 2017-12-27T21:32:03+08:00 ] 122.194.3.247 /my/thinkphp/index.php/Home/Index/setMenu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000135s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000065s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000094s ]
+NOTIC: [8] Undefined index: ACCESS_TOKEN /data/httpd/my/thinkphp/Application/Home/Controller/IndexController.class.php 第 45 行.
+
+[ 2017-12-27T21:32:53+08:00 ] 122.194.3.247 /my/thinkphp/index.php/Home/Index/setMenu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000171s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000079s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000117s ]
+NOTIC: [8] Undefined index: ACCESS_TOKEN /data/httpd/my/thinkphp/Application/Home/Controller/IndexController.class.php 第 46 行.
+
+[ 2017-12-27T21:34:38+08:00 ] 122.194.3.247 /my/thinkphp/index.php/Home/Index/setMenu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000142s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000065s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000094s ]
+
+[ 2017-12-27T21:34:56+08:00 ] 122.194.3.247 /my/thinkphp/index.php/Home/Index/setMenu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000143s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000062s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000089s ]
+NOTIC: [8] Undefined index: ACCESS_TOKEN /data/httpd/my/thinkphp/Application/Home/Controller/IndexController.class.php 第 45 行.
+NOTIC: [8] Undefined index: ACCESS_TOKEN /data/httpd/my/thinkphp/Application/Home/Controller/IndexController.class.php 第 96 行.
+
+[ 2017-12-27T22:01:27+08:00 ] 182.254.86.151 /my/thinkphp/?signature=25f316a7de2135ba11ea099bbe6e42355d1b6b9c&echostr=9500945005107734455&timestamp=1514383287&nonce=447074090
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000661s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000664s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000698s ]
+
+[ 2017-12-27T22:01:30+08:00 ] 182.254.86.145 /my/thinkphp/?signature=c99181ed03ba30d51330cc63695d242468601496&echostr=7046616687786063802&timestamp=1514383290&nonce=2518193182
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000154s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000076s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000109s ]
+
+[ 2017-12-27T22:01:52+08:00 ] 182.254.86.144 /my/thinkphp/?signature=e48d3ff91422ee58f83f4993606680f67986d7ad&echostr=10447798810754676702&timestamp=1514383312&nonce=589496923
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000158s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000082s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000121s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000813s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000851s ]
+
+[ 2017-12-27T22:01:56+08:00 ] 182.254.86.150 /my/thinkphp/?signature=effc56be543ba7522fe66760bd994b8a6c8306d5&echostr=6217703661174241246&timestamp=1514383316&nonce=3450884158
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000128s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000062s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000088s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000059s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000087s ]
+
+[ 2017-12-27T22:02:00+08:00 ] 182.254.86.144 /my/thinkphp/?signature=fab68156fe25e74ae982c95d6e34e79dd216e3b6&echostr=9320164521402691576&timestamp=1514383320&nonce=3381888015
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000121s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000060s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000086s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000056s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000083s ]
+
+[ 2017-12-27T22:02:46+08:00 ] 182.254.86.149 /my/thinkphp/?signature=2e8470850ec3ad3f013ee510ff8e54b8f807d2d8&echostr=3604259251833257014&timestamp=1514383366&nonce=1747207402
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000137s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000064s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000093s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000073s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000107s ]
+
+[ 2017-12-27T22:02:54+08:00 ] 182.254.86.150 /my/thinkphp/?signature=f506d9dc95366c731405bed9a1755da7c88ef9c1&echostr=15926582968914783823&timestamp=1514383374&nonce=376018561
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000132s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000061s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000088s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000076s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000114s ]
+
+[ 2017-12-27T22:02:58+08:00 ] 182.254.86.150 /my/thinkphp/?signature=1893d4217eb9b1ef619b9abb0547f7951366ae26&echostr=1332695033711667707&timestamp=1514383378&nonce=895500632
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000189s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000091s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000131s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000088s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000130s ]
+
+[ 2017-12-27T22:03:02+08:00 ] 182.254.86.154 /my/thinkphp/?signature=c9e59386dd9b692ee25e0a4083fc40ea163655b1&echostr=5449463442899185078&timestamp=1514383382&nonce=3479407247
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000157s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000066s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000095s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000057s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000083s ]
+
+[ 2017-12-27T22:03:24+08:00 ] 182.254.86.155 /my/thinkphp/?signature=43bf3d8cfb940b5ef8180037e18cc87eb6074abf&echostr=15382644754790460076&timestamp=1514383404&nonce=2882378735
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000162s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000089s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000132s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000096s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000145s ]
+
+[ 2017-12-27T22:03:27+08:00 ] 182.254.86.155 /my/thinkphp/?signature=f0ce600bbcb74fcbdfe02d66c3293556d5b0dc0c&echostr=16531762331417028735&timestamp=1514383407&nonce=1526082144
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000162s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000092s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000130s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000076s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000117s ]
+
+[ 2017-12-27T22:03:33+08:00 ] 182.254.86.144 /my/thinkphp/?signature=358b6c97e3b999eaa9b176edfa4df4186f7ccc7c&echostr=1945219431879145661&timestamp=1514383413&nonce=1881921856
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000129s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000072s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000106s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000058s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000100s ]
+
+[ 2017-12-27T22:04:11+08:00 ] 182.254.86.153 /my/thinkphp/?signature=5de7553d19fc8c777b5608963926b4cc96e3f4d0&echostr=17811874482141265147&timestamp=1514383451&nonce=755240455
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000125s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000070s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000105s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000071s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000102s ]
+
+[ 2017-12-27T22:14:16+08:00 ] 182.254.86.149 /my/thinkphp/?signature=fa565f55cd2b88c4f05354d4e5bc8f078bdd5ccb&echostr=11383439479453494203&timestamp=1514384056&nonce=203490301
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000121s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000065s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000092s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000063s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000097s ]
+
+[ 2017-12-27T22:14:21+08:00 ] 182.254.86.150 /my/thinkphp/?signature=81690d6241b0bb426d59037fb532b7ea52d24e92&echostr=7686698016947301055&timestamp=1514384061&nonce=700897877
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000124s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000069s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000104s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000073s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000103s ]
+
+[ 2017-12-27T22:15:09+08:00 ] 182.254.86.139 /my/thinkphp/?signature=d242fe2eb7aaf57e799e6fe358be50716bd55d50&echostr=371581702094696445&timestamp=1514384109&nonce=2533908267
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000214s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000083s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000122s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000082s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000139s ]
+
+[ 2017-12-27T22:26:08+08:00 ] 183.57.53.177 /my/thinkphp/?signature%3D57b7c9507ac7f5fd69ae73784f3e9262f01bb4fb%26echostr%3D5801768213509807359%26timestamp%3D1514377464%26nonce%3D2860128195
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000126s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000074s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000104s ]
+NOTIC: [8] Undefined index: signature /data/httpd/my/thinkphp/Application/Home/Controller/IndexController.class.php 第 14 行.
+NOTIC: [8] Undefined index: nonce /data/httpd/my/thinkphp/Application/Home/Controller/IndexController.class.php 第 15 行.
+NOTIC: [8] Undefined index: timestamp /data/httpd/my/thinkphp/Application/Home/Controller/IndexController.class.php 第 17 行.
+NOTIC: [8] Undefined index: echostr /data/httpd/my/thinkphp/Application/Home/Controller/IndexController.class.php 第 18 行.
+NOTIC: [8] Undefined index: HTTP_RAW_POST_DATA /data/httpd/my/thinkphp/Application/Home/Controller/IndexController.class.php 第 106 行.
+NOTIC: [2] simplexml_load_string() expects parameter 3 to be long, string given /data/httpd/my/thinkphp/Application/Home/Controller/IndexController.class.php 第 107 行.
+NOTIC: [8] Trying to get property of non-object /data/httpd/my/thinkphp/Application/Home/Controller/IndexController.class.php 第 108 行.
+NOTIC: [8] Trying to get property of non-object /data/httpd/my/thinkphp/Application/Home/Controller/IndexController.class.php 第 109 行.
+NOTIC: [8] Trying to get property of non-object /data/httpd/my/thinkphp/Application/Home/Controller/IndexController.class.php 第 112 行.
+NOTIC: [8] Undefined index: HTTP_RAW_POST_DATA /data/httpd/my/thinkphp/Application/Home/Controller/IndexController.class.php 第 106 行.
+NOTIC: [2] simplexml_load_string() expects parameter 3 to be long, string given /data/httpd/my/thinkphp/Application/Home/Controller/IndexController.class.php 第 107 行.
+NOTIC: [8] Trying to get property of non-object /data/httpd/my/thinkphp/Application/Home/Controller/IndexController.class.php 第 108 行.
+NOTIC: [8] Trying to get property of non-object /data/httpd/my/thinkphp/Application/Home/Controller/IndexController.class.php 第 109 行.
+NOTIC: [8] Trying to get property of non-object /data/httpd/my/thinkphp/Application/Home/Controller/IndexController.class.php 第 112 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000060s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000085s ]
+
+[ 2017-12-27T22:38:37+08:00 ] 182.254.86.150 /my/thinkphp/?signature=a8f600164e5302d43414a34909d8d4f75755a74f&echostr=979980673518386543&timestamp=1514385517&nonce=3142717126
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000123s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000063s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000092s ]
+
+[ 2017-12-27T22:39:15+08:00 ] 182.254.86.149 /my/thinkphp/?signature=641e5750894ecd1a4d8f32ee5f3b9428b6a07224&echostr=15694528198810005947&timestamp=1514385555&nonce=1580760606
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000123s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000075s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000102s ]
+
+[ 2017-12-27T22:39:29+08:00 ] 182.254.86.154 /my/thinkphp/?signature=638ea0483d9a88682b109c8701364e04b7e02ed0&echostr=6835534393255655675&timestamp=1514385569&nonce=1291004508
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000133s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000065s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000094s ]
+
+[ 2017-12-27T22:45:53+08:00 ] 14.17.3.64 /my/thinkphp/?signature%3D7d84af0c9bc2a2d244017453d955a3ab56721849%26echostr%3D17302562402279858041%26timestamp%3D1514377529%26nonce%3D518307817
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000189s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000096s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000143s ]
+NOTIC: [8] Undefined index: signature /data/httpd/my/thinkphp/Application/Home/Controller/IndexController.class.php 第 14 行.
+NOTIC: [8] Undefined index: nonce /data/httpd/my/thinkphp/Application/Home/Controller/IndexController.class.php 第 15 行.
+NOTIC: [8] Undefined index: timestamp /data/httpd/my/thinkphp/Application/Home/Controller/IndexController.class.php 第 17 行.
+NOTIC: [8] Undefined index: echostr /data/httpd/my/thinkphp/Application/Home/Controller/IndexController.class.php 第 18 行.
+NOTIC: [8] Undefined index: HTTP_RAW_POST_DATA /data/httpd/my/thinkphp/Application/Home/Controller/IndexController.class.php 第 104 行.
+NOTIC: [2] simplexml_load_string() expects parameter 3 to be long, string given /data/httpd/my/thinkphp/Application/Home/Controller/IndexController.class.php 第 105 行.
+NOTIC: [8] Trying to get property of non-object /data/httpd/my/thinkphp/Application/Home/Controller/IndexController.class.php 第 106 行.
+NOTIC: [8] Trying to get property of non-object /data/httpd/my/thinkphp/Application/Home/Controller/IndexController.class.php 第 107 行.
+NOTIC: [8] Trying to get property of non-object /data/httpd/my/thinkphp/Application/Home/Controller/IndexController.class.php 第 110 行.
+
+[ 2017-12-27T23:15:06+08:00 ] 182.254.86.139 /my/thinkphp/?signature=c65cbebc37901a3f864fd38519e5f7ef06dcd7b9&echostr=5184135850550606074&timestamp=1514387706&nonce=3049302310
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000128s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000064s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000092s ]
+NOTIC: [8] Undefined variable: singature /data/httpd/my/thinkphp/Application/Home/Controller/IndexController.class.php 第 27 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000075s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000106s ]
+
+[ 2017-12-27T23:15:09+08:00 ] 182.254.86.155 /my/thinkphp/?signature=d5e1f1278c51b8cef1c049a1e4170826637b5e82&echostr=17258278744202672893&timestamp=1514387709&nonce=3901779621
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000135s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000064s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000091s ]
+NOTIC: [8] Undefined variable: singature /data/httpd/my/thinkphp/Application/Home/Controller/IndexController.class.php 第 27 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000067s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000095s ]
+
+[ 2017-12-27T23:15:50+08:00 ] 182.254.86.145 /my/thinkphp/?signature=3bb374ff3ea1a32d699397f8f78c7bd3e330a523&echostr=2853885680361143231&timestamp=1514387750&nonce=2858456077
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000141s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000063s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000090s ]
+NOTIC: [8] Undefined variable: singature /data/httpd/my/thinkphp/Application/Home/Controller/IndexController.class.php 第 24 行.
+NOTIC: [8] Trying to get property of non-object /data/httpd/my/thinkphp/Application/Home/Controller/IndexController.class.php 第 106 行.
+NOTIC: [8] Trying to get property of non-object /data/httpd/my/thinkphp/Application/Home/Controller/IndexController.class.php 第 107 行.
+NOTIC: [8] Trying to get property of non-object /data/httpd/my/thinkphp/Application/Home/Controller/IndexController.class.php 第 109 行.
+NOTIC: [8] Trying to get property of non-object /data/httpd/my/thinkphp/Application/Home/Controller/IndexController.class.php 第 110 行.
+
+[ 2017-12-27T23:16:20+08:00 ] 182.254.86.145 /my/thinkphp/?signature=5cf6466a6ce2abd7f69191e3df46812c75c09c8c&echostr=16275057406650073029&timestamp=1514387780&nonce=4005976719
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000134s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000064s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000092s ]
+NOTIC: [8] Undefined variable: singature /data/httpd/my/thinkphp/Application/Home/Controller/IndexController.class.php 第 24 行.
+NOTIC: [8] Trying to get property of non-object /data/httpd/my/thinkphp/Application/Home/Controller/IndexController.class.php 第 106 行.
+NOTIC: [8] Trying to get property of non-object /data/httpd/my/thinkphp/Application/Home/Controller/IndexController.class.php 第 107 行.
+NOTIC: [8] Trying to get property of non-object /data/httpd/my/thinkphp/Application/Home/Controller/IndexController.class.php 第 109 行.
+NOTIC: [8] Trying to get property of non-object /data/httpd/my/thinkphp/Application/Home/Controller/IndexController.class.php 第 110 行.
+
+[ 2017-12-27T23:16:43+08:00 ] 182.254.86.155 /my/thinkphp/?signature=1edefd3b00d5ff603227a396f5c8f9649b2e136a&echostr=11517600350668307806&timestamp=1514387802&nonce=40083541
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000129s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000076s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000110s ]
+NOTIC: [8] Undefined variable: singature /data/httpd/my/thinkphp/Application/Home/Controller/IndexController.class.php 第 24 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000064s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000090s ]
+
+[ 2017-12-27T23:16:46+08:00 ] 182.254.86.155 /my/thinkphp/?signature=07c555cf145573b9a8c536812815c78ab6dff128&echostr=11589973839549823454&timestamp=1514387806&nonce=4119173464
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000176s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000092s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000134s ]
+NOTIC: [8] Undefined variable: singature /data/httpd/my/thinkphp/Application/Home/Controller/IndexController.class.php 第 24 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000145s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000190s ]
+
+[ 2017-12-27T23:17:11+08:00 ] 182.254.86.147 /my/thinkphp/?signature=799abacd9b7178f1d7135db18b7286adf7c69ddb&echostr=12620034479771336703&timestamp=1514387831&nonce=1528980225
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000139s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000066s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000093s ]
+
+[ 2017-12-27T23:17:20+08:00 ] 120.204.17.73 /my/thinkphp/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000183s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000087s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000135s ]
+NOTIC: [8] Undefined index: signature /data/httpd/my/thinkphp/Application/Home/Controller/IndexController.class.php 第 14 行.
+NOTIC: [8] Undefined index: nonce /data/httpd/my/thinkphp/Application/Home/Controller/IndexController.class.php 第 15 行.
+NOTIC: [8] Undefined index: timestamp /data/httpd/my/thinkphp/Application/Home/Controller/IndexController.class.php 第 17 行.
+NOTIC: [8] Undefined index: echostr /data/httpd/my/thinkphp/Application/Home/Controller/IndexController.class.php 第 18 行.
+NOTIC: [8] Undefined index: HTTP_RAW_POST_DATA /data/httpd/my/thinkphp/Application/Home/Controller/IndexController.class.php 第 104 行.
+NOTIC: [2] simplexml_load_string() expects parameter 3 to be long, string given /data/httpd/my/thinkphp/Application/Home/Controller/IndexController.class.php 第 105 行.
+NOTIC: [8] Trying to get property of non-object /data/httpd/my/thinkphp/Application/Home/Controller/IndexController.class.php 第 106 行.
+NOTIC: [8] Trying to get property of non-object /data/httpd/my/thinkphp/Application/Home/Controller/IndexController.class.php 第 107 行.
+NOTIC: [8] Trying to get property of non-object /data/httpd/my/thinkphp/Application/Home/Controller/IndexController.class.php 第 110 行.
+
+[ 2017-12-27T23:18:01+08:00 ] 182.254.86.151 /my/thinkphp/?signature=f5a164b5d0d986680c1b8e691d7d52a73daf7cba&echostr=15119928832166706607&timestamp=1514387881&nonce=668078642
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000136s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000065s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000101s ]
+
