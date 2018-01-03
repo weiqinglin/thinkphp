@@ -1,0 +1,39 @@
+[ 2018-01-03T18:20:54+08:00 ] 202.195.159.95 /admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000324s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000308s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000344s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001214s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001259s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003857s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003894s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000594s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000627s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007918s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007961s ]
+NOTIC: [8] Use of undefined constant ROOT_DIR - assumed 'ROOT_DIR' /data/httpd/my/thinkphp/config/config.php 第 13 行.
+
+[ 2018-01-03T18:32:26+08:00 ] 202.195.159.95 /admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000655s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000205s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000236s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000832s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000870s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000196s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000220s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000187s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000211s ]
+NOTIC: [8] Use of undefined constant ROOT_DIR - assumed 'ROOT_DIR' /data/httpd/my/thinkphp/config/config.php 第 13 行.
+
