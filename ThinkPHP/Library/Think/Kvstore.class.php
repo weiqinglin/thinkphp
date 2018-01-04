@@ -21,8 +21,7 @@ class Kvstore {
                 self::$kvobj = new \Think\Kvstore\Driver\Filesystem($prefix);
             }
         }else{
-            $class = '\\Think\\Kvstore\\Driver\\Filesystem()';
-            self::$kvobj = new $class;
+            self::$kvobj = new \Think\Kvstore\Driver\Filesystem($prefix);
         }
     }
     public function store($key, $value, $ttl = 0)
@@ -30,9 +29,9 @@ class Kvstore {
         return self::$kvobj->store($key, $value, $ttl);
         // TODO: Implement store() method.
     }
-    public function fetch($key, &$value, $timeout_version = null)
+    public function fetch($key)
     {
-        return self::$kvobj->fetch($key, $value, $ttl = 0);
+        return self::$kvobj->fetch($key);
         // TODO: Implement fetch() method.
     }
     public function delete($key)
