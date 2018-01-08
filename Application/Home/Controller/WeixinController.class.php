@@ -130,4 +130,33 @@ error_log(print_r($msg),3,'/tmp/ds.log');
             echo '';exit;
         }
     }
+
+    private function __getAccessToken(){
+        $APPID = C('APPID');
+        $APPSECRET = C('b8d87e00aa3dbe91fc699c98401b956f');
+        $url = "https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid={$APPID}&secret={$APPSECRET}";
+        $data = $this->curl_data($url);
+        var_dump($data);
+    }
+
+    public function curl_data($url,$method='get',$data=null){
+        $ch = curl_init();
+        curl_setopt($ch,CURLOPT_URL,$url);
+        curl_setopt($ch,CURLOPT_RETURNTRANSFER,1);
+        curl_setopt($ch,CURLOPT_HEADER,0);
+        if(strtolower($method) == 'post'){
+            curl_setopt($ch,CURLOPT_POST,1);
+            curl_setopt($ch,CURLOPT_POSTFIELDS,$data);
+        }
+        $result = curl_exec($ch);
+        if($result){
+            curl_close($ch);
+            return json_decode($result);
+        }else{
+            return false;
+        }
+    }
+    public function setMenu(){
+        $this->__getAccessToken();
+    }
 }
