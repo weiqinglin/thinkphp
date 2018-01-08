@@ -133,7 +133,7 @@ error_log(print_r($msg),3,'/tmp/ds.log');
 
     private function __getAccessToken(){
         $APPID = C('APPID');
-        $APPSECRET = C('b8d87e00aa3dbe91fc699c98401b956f');
+        $APPSECRET = C('AppSecret');
         $url = "https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid={$APPID}&secret={$APPSECRET}";
         $data = $this->curl_data($url);
         var_dump($data);
