@@ -158,7 +158,7 @@ error_log(print_r($msg),3,'/tmp/ds.log');
         $result = curl_exec($ch);
         if($result){
             curl_close($ch);
-            return json_decode($result);
+            return json_decode(json_encode($result),true);
         }else{
             return false;
         }

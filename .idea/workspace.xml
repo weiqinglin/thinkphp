@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="4e40f0c9-5281-460a-ac08-48c159a20098" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Home/Controller/WeixinController.class.php" afterPath="$PROJECT_DIR$/Application/Home/Controller/WeixinController.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Think/Controller.class.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Think/Controller.class.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -47,8 +46,8 @@
       <file leaf-file-name="WeixinController.class.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Application/Home/Controller/WeixinController.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-558">
-              <caret line="137" column="46" lean-forward="false" selection-start-line="137" selection-start-column="46" selection-end-line="137" selection-end-column="46" />
+            <state relative-caret-position="248">
+              <caret line="160" column="57" lean-forward="false" selection-start-line="160" selection-start-column="57" selection-end-line="160" selection-end-column="57" />
               <folding />
             </state>
           </provider>
@@ -309,12 +308,12 @@
       <workItem from="1515289799376" duration="1238000" />
       <workItem from="1515309119789" duration="5306000" />
       <workItem from="1515375357092" duration="2625000" />
-      <workItem from="1515385766964" duration="3049000" />
+      <workItem from="1515385766964" duration="4017000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="130913000" />
+    <option name="totallyTimeSpent" value="131881000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -732,8 +731,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Application/Home/Controller/WeixinController.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-558">
-          <caret line="137" column="46" lean-forward="false" selection-start-line="137" selection-start-column="46" selection-end-line="137" selection-end-column="46" />
+        <state relative-caret-position="248">
+          <caret line="160" column="57" lean-forward="false" selection-start-line="160" selection-start-column="57" selection-end-line="160" selection-end-column="57" />
           <folding />
         </state>
       </provider>
