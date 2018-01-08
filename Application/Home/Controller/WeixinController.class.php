@@ -134,9 +134,16 @@ error_log(print_r($msg),3,'/tmp/ds.log');
     private function __getAccessToken(){
         $APPID = C('APPID');
         $APPSECRET = C('AppSecret');
+        if($this->app->fetch('access_token')){
+            $this->app->fetch('access_token');
+        }
         $url = "https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid={$APPID}&secret={$APPSECRET}";
         $data = $this->curl_data($url);
-        var_dump($data);
+        if(isset($data['access_token'])){
+            $this->app->store('access_token',$data['access_token'],$data['expires_in']);
+        }else{
+            return false;
+        }
     }
 
     public function curl_data($url,$method='get',$data=null){

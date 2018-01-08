@@ -36,8 +36,10 @@ abstract class Controller {
         Hook::listen('action_begin',$this->config);
         //实例化视图类
         $this->view     = Think::instance('Think\View');
+        if(!isset($this->app)){
+            $this->app = new \Think\Kvstore();
+        }
 
-        //$this->app = new \Think\Kvstore();
         //控制器初始化
         if(method_exists($this,'_initialize'))
             $this->_initialize();
