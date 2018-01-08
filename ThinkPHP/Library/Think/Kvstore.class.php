@@ -12,16 +12,16 @@ class Kvstore {
 
     static $kvobj;
 
-    public function __construct($prefix)
+    public function __construct()
     {
         if(defined('KVSTORE_STORAGE')){
             if(KVSTORE_STORAGE == '\Think\Kvstore\Driver\Rediskv()'){
                 self::$kvobj = new \Think\Kvstore\Driver\Rediskv();
             }elseif(KVSTORE_STORAGE == '\Think\Kvstore\Driver\Filesystem()'){
-                self::$kvobj = new \Think\Kvstore\Driver\Filesystem($prefix);
+                self::$kvobj = new \Think\Kvstore\Driver\Filesystem();
             }
         }else{
-            self::$kvobj = new \Think\Kvstore\Driver\Filesystem($prefix);
+            self::$kvobj = new \Think\Kvstore\Driver\Filesystem();
         }
     }
     public function store($key, $value, $ttl = 0)

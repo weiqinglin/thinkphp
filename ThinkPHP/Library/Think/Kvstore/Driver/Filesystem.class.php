@@ -15,7 +15,6 @@ class Filesystem  {
     static $handle;
     public function __construct($prefix='default')
     {
-
         if(!isset(self::$handle)){
             self::$handle = new File($prefix);
         }

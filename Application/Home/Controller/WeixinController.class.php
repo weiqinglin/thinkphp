@@ -137,10 +137,13 @@ error_log(print_r($msg),3,'/tmp/ds.log');
         if($this->app->fetch('access_token')){
             $this->app->fetch('access_token');
         }
+
         $url = "https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid={$APPID}&secret={$APPSECRET}";
         $data = $this->curl_data($url);
+        $data['access_token'] = 1111;
         if(isset($data['access_token'])){
-            $this->app->store('access_token',$data['access_token'],$data['expires_in']);
+            var_dump($this->app);die();
+            $this->app->store('access_token',$data['access_token']);
         }else{
             return false;
         }

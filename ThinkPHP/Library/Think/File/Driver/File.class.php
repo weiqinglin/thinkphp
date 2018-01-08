@@ -66,6 +66,7 @@ class File extends Key{
     {
         if(!is_dir(FILEPATH.$this->prefix)){
             mkdir(FILEPATH.$this->prefix,777,true);
+
         }
     }//End Function
     private function get_store_file($key){
